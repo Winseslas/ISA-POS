@@ -9,8 +9,16 @@ import { Pricing } from "../components/pages/home/Pricing/Pricing";
 import { Download } from "../components/pages/home/Download/Download";
 import { AboutISA } from "../components/pages/home/About/AboutISA";
 import { Testimonials } from "../components/pages/home/Testimonials/Testimonials";
+import { useTranslation } from 'react-i18next';
+import { useEffect } from 'react';
 
 export default function IndexPage() {
+  
+  const { t } = useTranslation();
+  useEffect(() => {
+    document.title = `ISA POS - ${t('components.header.home', 'Home')}`;
+  }, [t]);
+
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}

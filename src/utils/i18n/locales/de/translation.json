@@ -2,6 +2,7 @@
     "siteTitle": "ISA POS",
     "pages": {
         "indexPage": {
+            "title": "Startseite",
             "hero": {
                 "title": "ISA Verkaufsteam",
                 "description": "Verwalten Sie Ihr Verkaufsteam und dessen Leistung mit unserem umfassenden Verkaufsmanagementsystem, das für moderne Unternehmen entwickelt wurde.",
@@ -236,6 +237,71 @@
                 "description": "Unser Support-Team ist rund um die Uhr für Sie da. Kontaktieren Sie uns für persönliche Unterstützung und detaillierte Antworten auf Ihre spezifischen Fragen.",
                 "contact_button": "Support kontaktieren",
                 "demo_button": "Demo planen"
+            }
+        },
+        "contactPage": {
+            "title": "Kontakt",
+            "header": {
+                "title": "Kontaktieren Sie uns",
+                "subtitle": "Bereit, Ihr Unternehmen zu transformieren? Kontaktieren Sie unser Team für individuelle Unterstützung und erfahren Sie, wie ISA Ihre Abläufe revolutionieren kann."
+            },
+            "contact": {
+                "form": {
+                    "title": "Kontaktieren Sie uns für weitere Informationen",
+                    "subtitle": "Sie können von einer kostenlosen Testversion von ISA POS profitieren!!!",
+                    "firstName": "Vorname *",
+                    "lastName": "Nachname *",
+                    "business": "Firmenname *",
+                    "phone": "Telefon *",
+                    "email": "E-Mail *",
+                    "need": "Ihr Anliegen *",
+                    "message": "Kommentar oder Anliegen *",
+                    "messageSent": "Nachricht gesendet!",
+                    "send": "Nachricht senden",
+                    "error_required": "Dieses Feld ist erforderlich",
+                    "error_email_required": "E-Mail ist erforderlich",
+                    "error_email_invalid": "Ungültiges E-Mail-Format",
+                    "error_phone_required": "Telefonnummer ist erforderlich",
+                    "error_phone_invalid": "Ungültige Telefonnummer"
+                },
+                "image": {
+                    "title": "Starten Sie heute",
+                    "subtitle": "Schließen Sie sich Tausenden von Unternehmen an, die ISA gewählt haben, um ihre Abläufe zu optimieren und die Leistung zu steigern. Starten Sie noch heute Ihre kostenlose Testversion.",
+                    "button": "Jetzt starten"
+                },
+                "cards": {
+                    "address": {
+                        "title": "Adresse",
+                        "line1": "Yaoundé - Mfandena Omnisport",
+                        "line2": "Geschäftsleitung",
+                        "line3": "Douala - Akwa, sogenannter Douala Bar",
+                        "line4": "Rue Pau",
+                        "line5": "BP 14 573 Yaoundé - Kamerun"
+                    },
+                    "hours": {
+                        "title": "Geschäftszeiten",
+                        "weekdays": "Montag bis Freitag",
+                        "weekdays_time": "08:00 - 17:00",
+                        "saturday": "Samstag",
+                        "saturday_time": "08:30 - 13:00",
+                        "emergency": "Notfallsupport rund um die Uhr verfügbar"
+                    },
+                    "contact": {
+                        "title": "Kontakt",
+                        "phone1": "+237 674 516 017",
+                        "phone2": "+237 688 096 778",
+                        "email": "contact@isa.com"
+                    }
+                }
+            },
+            "map": {
+                "title": "Finden Sie uns auf der Karte"
+            },
+            "cta": {
+                "title": "Bereit zum Starten?",
+                "description": "Warten Sie nicht! Kontaktieren Sie uns noch heute und erfahren Sie, wie ISA Ihre Geschäftsprozesse verändern kann. Unser Team ist bereit, Ihnen eine personalisierte Demonstration zu bieten.",
+                "demo_button": "Kostenlose Demo vereinbaren",
+                "call_button": "Jetzt anrufen: +237 674 516 017"
             }
         }
     },

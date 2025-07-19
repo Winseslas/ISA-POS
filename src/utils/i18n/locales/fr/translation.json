@@ -2,6 +2,7 @@
     "siteTitle": "iSA POS",
     "pages": {
         "indexPage": {
+            "title": "Accueil",
             "hero": {
                 "title": "Force de vente ISA",
                 "description": "Gérez votre force de vente et leurs performances avec notre système de gestion des ventes complet, conçu pour les entreprises modernes.",
@@ -153,89 +154,154 @@
                 "image_alt_4": "Membre de l'équipe 4"
             }
         },
-        "faqPage" : {
-            "title": "FAQ",
+        "faqPage": {
+            "title": "Foire aux questions",
             "image_alt": "Appareil ISA",
             "description_1": " est la solution de gestion tout-en-un innovante",
             "description_2": "pour les points de vente, les agents commerciaux et les prestataires de services, disponible avec ou sans connexion et disponible 24/7.",
             "description_3": " est une gestion simplifiée (facturation, encaissements, dépenses, inventaire, comptabilité, tableaux de bord, etc.)",
             "categories": {
-              "general": "Informations générales et prérequis",
-              "discover": "Découvrir et s'abonner à ISA"
+                "general": "Informations générales et prérequis",
+                "discover": "Découvrir et s'abonner à ISA"
             },
             "faq_items": [
-              {
-                "id": 1,
-                "category": "general",
-                "question": "Quelle est la procédure pour s'abonner à ISA ?",
-                "answer": "Pour s'abonner à ISA, visitez simplement notre site web, choisissez votre plan préféré (LITE, SMART, AU-DELÀ DE LITE ou INFINI), remplissez le formulaire d'inscription avec les détails de votre entreprise et finalisez le processus de paiement. Notre équipe vous contactera dans les 24 heures pour configurer votre compte et fournir une formation."
-              },
-              {
-                "id": 2,
-                "category": "general",
-                "question": "ISA est-il gratuit ?",
-                "answer": "ISA propose un essai gratuit de 14 jours pour tous les nouveaux utilisateurs. Après la période d'essai, vous devrez choisir parmi nos plans d'abonnement à partir de 99 €/mois pour le plan LITE. Nous croyons en la valeur que nous offrons, vous pouvez donc tester toutes les fonctionnalités avant de vous engager."
-              },
-              {
-                "id": 3,
-                "category": "general",
-                "question": "Android / iOS - fonctionnalités ?",
-                "answer": "Oui ! ISA est entièrement compatible avec les appareils Android et iOS. Notre application mobile fournit toutes les fonctionnalités essentielles, y compris la fonctionnalité POS, la gestion des stocks, le suivi des ventes et les rapports en temps réel. Téléchargez-la sur Google Play Store ou l'App Store d'Apple."
-              },
-              {
-                "id": 4,
-                "category": "general",
-                "question": "ISA est-il utilisable sur ordinateur portable/PC ?",
-                "answer": "Absolument ! ISA fonctionne parfaitement sur les ordinateurs portables et de bureau via n'importe quel navigateur web moderne. La version web inclut toutes les fonctionnalités et fournit un tableau de bord complet pour gérer vos opérations commerciales avec un écran plus grand."
-              },
-              {
-                "id": 5,
-                "category": "general",
-                "question": "Équipement optionnel",
-                "answer": "Bien que ISA fonctionne avec des appareils standards, nous recommandons des équipements optionnels pour une fonctionnalité améliorée : imprimantes de reçus, scanners de codes-barres, tiroirs-caisses, lecteurs de cartes et supports pour tablettes. Notre équipe peut vous aider à choisir l'équipement adapté à votre type d'entreprise."
-              },
-              {
-                "id": 6,
-                "category": "discover",
-                "question": "Comment télécharger et tester ISA ?",
-                "answer": "Visitez notre site web et cliquez sur 'Commencer maintenant' pour commencer votre essai gratuit de 14 jours. Vous pouvez télécharger l'application mobile depuis la boutique d'applications de votre appareil ou accéder à la version web directement via votre navigateur. Aucune carte de crédit n'est requise pour la période d'essai."
-              },
-              {
-                "id": 7,
-                "category": "discover",
-                "question": "Comment s'abonner à ISA ?",
-                "answer": "Après votre période d'essai, connectez-vous à votre compte ISA, allez dans 'Facturation et abonnement', sélectionnez votre plan préféré, entrez vos informations de paiement et confirmez votre abonnement. Vous aurez un accès immédiat à toutes les fonctionnalités premium en fonction de votre plan choisi."
-              },
-              {
-                "id": 8,
-                "category": "discover",
-                "question": "Comment se connecter à ISA ?",
-                "answer": "La connexion à ISA est simple : assurez-vous d'avoir une connexion Internet stable, ouvrez l'application ISA ou le portail web, entrez vos identifiants de connexion, et vous êtes connecté ! Le système fonctionne en ligne et hors ligne, synchronisant les données lorsque la connexion est rétablie."
-              },
-              {
-                "id": 9,
-                "category": "discover",
-                "question": "Quels moyens de paiement sont acceptés ?",
-                "answer": "Nous acceptons toutes les principales cartes de crédit (Visa, MasterCard, American Express), PayPal, les virements bancaires et les paiements par mobile money. Pour les clients entreprise, nous proposons également une facturation basée sur facture avec des conditions NET 30."
-              },
-              {
-                "id": 10,
-                "category": "discover",
-                "question": "Présentation d'ISA ?",
-                "answer": "ISA est une solution de gestion d'entreprise complète conçue pour les restaurants, les salons de beauté, les magasins de détail, les bars et les entreprises de services. Elle inclut des systèmes POS, la gestion des stocks, des outils de gestion de la relation client, des analyses et un support multi-emplacements - le tout dans une plateforme intégrée."
-              },
-              {
-                "id": 11,
-                "category": "discover",
-                "question": "Comment se former à ISA ?",
-                "answer": "Nous fournissons une formation complète incluant : des sessions d'intégration en direct, des tutoriels vidéo, une documentation détaillée, des environnements de pratique et un support continu. Notre équipe de formation s'assure que vous et votre personnel êtes parfaitement à l'aise avec toutes les fonctionnalités d'ISA avant de passer en production."
-              }
+                {
+                    "id": 1,
+                    "category": "general",
+                    "question": "Quelle est la procédure pour s'abonner à ISA ?",
+                    "answer": "Pour s'abonner à ISA, visitez simplement notre site web, choisissez votre plan préféré (LITE, SMART, AU-DELÀ DE LITE ou INFINI), remplissez le formulaire d'inscription avec les détails de votre entreprise et finalisez le processus de paiement. Notre équipe vous contactera dans les 24 heures pour configurer votre compte et fournir une formation."
+                },
+                {
+                    "id": 2,
+                    "category": "general",
+                    "question": "ISA est-il gratuit ?",
+                    "answer": "ISA propose un essai gratuit de 14 jours pour tous les nouveaux utilisateurs. Après la période d'essai, vous devrez choisir parmi nos plans d'abonnement à partir de 99 €/mois pour le plan LITE. Nous croyons en la valeur que nous offrons, vous pouvez donc tester toutes les fonctionnalités avant de vous engager."
+                },
+                {
+                    "id": 3,
+                    "category": "general",
+                    "question": "Android / iOS - fonctionnalités ?",
+                    "answer": "Oui ! ISA est entièrement compatible avec les appareils Android et iOS. Notre application mobile fournit toutes les fonctionnalités essentielles, y compris la fonctionnalité POS, la gestion des stocks, le suivi des ventes et les rapports en temps réel. Téléchargez-la sur Google Play Store ou l'App Store d'Apple."
+                },
+                {
+                    "id": 4,
+                    "category": "general",
+                    "question": "ISA est-il utilisable sur ordinateur portable/PC ?",
+                    "answer": "Absolument ! ISA fonctionne parfaitement sur les ordinateurs portables et de bureau via n'importe quel navigateur web moderne. La version web inclut toutes les fonctionnalités et fournit un tableau de bord complet pour gérer vos opérations commerciales avec un écran plus grand."
+                },
+                {
+                    "id": 5,
+                    "category": "general",
+                    "question": "Équipement optionnel",
+                    "answer": "Bien que ISA fonctionne avec des appareils standards, nous recommandons des équipements optionnels pour une fonctionnalité améliorée : imprimantes de reçus, scanners de codes-barres, tiroirs-caisses, lecteurs de cartes et supports pour tablettes. Notre équipe peut vous aider à choisir l'équipement adapté à votre type d'entreprise."
+                },
+                {
+                    "id": 6,
+                    "category": "discover",
+                    "question": "Comment télécharger et tester ISA ?",
+                    "answer": "Visitez notre site web et cliquez sur 'Commencer maintenant' pour commencer votre essai gratuit de 14 jours. Vous pouvez télécharger l'application mobile depuis la boutique d'applications de votre appareil ou accéder à la version web directement via votre navigateur. Aucune carte de crédit n'est requise pour la période d'essai."
+                },
+                {
+                    "id": 7,
+                    "category": "discover",
+                    "question": "Comment s'abonner à ISA ?",
+                    "answer": "Après votre période d'essai, connectez-vous à votre compte ISA, allez dans 'Facturation et abonnement', sélectionnez votre plan préféré, entrez vos informations de paiement et confirmez votre abonnement. Vous aurez un accès immédiat à toutes les fonctionnalités premium en fonction de votre plan choisi."
+                },
+                {
+                    "id": 8,
+                    "category": "discover",
+                    "question": "Comment se connecter à ISA ?",
+                    "answer": "La connexion à ISA est simple : assurez-vous d'avoir une connexion Internet stable, ouvrez l'application ISA ou le portail web, entrez vos identifiants de connexion, et vous êtes connecté ! Le système fonctionne en ligne et hors ligne, synchronisant les données lorsque la connexion est rétablie."
+                },
+                {
+                    "id": 9,
+                    "category": "discover",
+                    "question": "Quels moyens de paiement sont acceptés ?",
+                    "answer": "Nous acceptons toutes les principales cartes de crédit (Visa, MasterCard, American Express), PayPal, les virements bancaires et les paiements par mobile money. Pour les clients entreprise, nous proposons également une facturation basée sur facture avec des conditions NET 30."
+                },
+                {
+                    "id": 10,
+                    "category": "discover",
+                    "question": "Présentation d'ISA ?",
+                    "answer": "ISA est une solution de gestion d'entreprise complète conçue pour les restaurants, les salons de beauté, les magasins de détail, les bars et les entreprises de services. Elle inclut des systèmes POS, la gestion des stocks, des outils de gestion de la relation client, des analyses et un support multi-emplacements - le tout dans une plateforme intégrée."
+                },
+                {
+                    "id": 11,
+                    "category": "discover",
+                    "question": "Comment se former à ISA ?",
+                    "answer": "Nous fournissons une formation complète incluant : des sessions d'intégration en direct, des tutoriels vidéo, une documentation détaillée, des environnements de pratique et un support continu. Notre équipe de formation s'assure que vous et votre personnel êtes parfaitement à l'aise avec toutes les fonctionnalités d'ISA avant de passer en production."
+                }
             ],
             "support_section": {
-              "heading": "Vous avez encore des questions ?",
-              "description": "Notre équipe de support est là pour vous aider 24/7. Contactez-nous pour une assistance personnalisée et des réponses détaillées à vos questions spécifiques.",
-              "contact_button": "Contacter le support",
-              "demo_button": "Planifier une démo"
+                "heading": "Vous avez encore des questions ?",
+                "description": "Notre équipe de support est là pour vous aider 24/7. Contactez-nous pour une assistance personnalisée et des réponses détaillées à vos questions spécifiques.",
+                "contact_button": "Contacter le support",
+                "demo_button": "Planifier une démo"
+            }
+        },
+        "contactPage": {
+            "title": "Contact",
+            "header": {
+                "title": "Nous contacter",
+                "subtitle": "Prêt à transformer votre entreprise ? Contactez notre équipe pour une assistance personnalisée et découvrez comment ISA peut révolutionner vos opérations."
+            },
+            "contact": {
+                "form": {
+                    "title": "Contactez-nous pour plus d'informations",
+                    "subtitle": "Vous pouvez bénéficier d'un essai gratuit de ISA POS!!!",
+                    "firstName": "Prénom *",
+                    "lastName": "Nom *",
+                    "business": "Nom de l'entreprise *",
+                    "phone": "Téléphone *",
+                    "email": "Email *",
+                    "need": "Votre besoin *",
+                    "message": "Commentaire ou besoin *",
+                    "messageSent": "Message envoyé !",
+                    "send": "Envoyer un message",
+                    "error_required": "Ce champ est requis",
+                    "error_email_required": "Email est requis",
+                    "error_email_invalid": "Format d'email invalide",
+                    "error_phone_required": "Numéro de téléphone est requis",
+                    "error_phone_invalid": "Numéro de téléphone invalide"
+                },
+                "image": {
+                    "title": "Commencez aujourd'hui",
+                    "subtitle": "Rejoignez des milliers d'entreprises qui ont choisi ISA pour rationaliser leurs opérations et améliorer leurs performances. Commencez votre essai gratuit aujourd'hui.",
+                    "button": "Commencer maintenant"
+                },
+                "cards": {
+                    "address": {
+                        "title": "Adresse",
+                        "line1": "Yaoundé - Mfandena Omnisport",
+                        "line2": "Direction Générale",
+                        "line3": "Douala - Akwa, lieu dit Douala Bar",
+                        "line4": "Rue Pau",
+                        "line5": "BP 14 573 Yaoundé - Cameroun"
+                    },
+                    "hours": {
+                        "title": "Heures d'ouverture",
+                        "weekdays": "Lundi à vendredi",
+                        "weekdays_time": "08h00 - 17h00",
+                        "saturday": "Samedi",
+                        "saturday_time": "08h30 - 13h00",
+                        "emergency": "Support d'urgence disponible 24/7"
+                    },
+                    "contact": {
+                        "title": "Contact",
+                        "phone1": "+237 674 516 017",
+                        "phone2": "+237 688 096 778",
+                        "email": "contact@isa.com"
+                    }
+                }
+            },
+            "map": {
+                "title": "Trouvez-nous sur la carte"
+            },
+            "cta": {
+                "title": "Prêt à commencer ?",
+                "description": "Ne tardez pas ! Contactez-nous dès aujourd'hui et découvrez comment ISA peut transformer vos opérations commerciales. Notre équipe est prête à vous offrir une démonstration personnalisée.",
+                "demo_button": "Planifier une démo gratuite",
+                "call_button": "Appeler maintenant : +237 674 516 017"
             }
         }
     },

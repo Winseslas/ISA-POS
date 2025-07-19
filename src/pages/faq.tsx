@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo, useState, useEffect } from 'react';
 import { HelpCircle, Smartphone, Laptop, CreditCard, Download, Users, Settings, Zap } from 'lucide-react';
 import { Footer } from '../components/common/Footer/Footer';
 import { Header } from '../components/common/Header/Header';
@@ -7,7 +7,6 @@ import { FAQSupportSection } from '../components/pages/FAQ/FAQSupportSection';
 import { FAQHeader } from '../components/pages/FAQ/FAQHeader';
 import { FAQCategory } from '../components/pages/FAQ/FAQCategory';
 
-// Types
 export interface FAQItemData {
     id: number;
     category: string;
@@ -31,7 +30,6 @@ export interface FAQTranslation {
     };
 }
 
-// Données statiques pour les icônes
 const iconComponents: { [key: number]: React.ReactNode } = {
     1: <HelpCircle className="h-5 w-5" />,
     2: <Smartphone className="h-5 w-5" />,
@@ -43,9 +41,11 @@ const iconComponents: { [key: number]: React.ReactNode } = {
     8: <CreditCard className="h-5 w-5" />,
 };
 
-// Composant principal FAQPage
 export const FAQPage: React.FC = () => {
     const { t } = useTranslation();
+    useEffect(() => {
+        document.title = `ISA POS - ${t('pages.faqPage.title')}`;
+    }, [t]);
     const faqTranslation = t('pages.faqPage', { returnObjects: true }) as unknown as FAQTranslation;
 
     const faqData: FAQItemData[] = useMemo(() => {

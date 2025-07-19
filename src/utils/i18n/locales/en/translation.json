@@ -2,6 +2,7 @@
     "siteTitle": "ISA POS",
     "pages": {
         "indexPage": {
+            "title": "Home",
             "hero": {
                 "title": "ISA Sales Force",
                 "description": "Manage your Sales force and their performance with our comprehensive sales management system designed for modern businesses.",
@@ -236,6 +237,71 @@
                 "description": "Our support team is here to help you 24/7. Get in touch with us for personalized assistance and detailed answers to your specific questions.",
                 "contact_button": "Contact Support",
                 "demo_button": "Schedule Demo"
+            }
+        },
+        "contactPage": {
+            "title": "Contact",
+            "header": {
+                "title": "Contact Us",
+                "subtitle": "Ready to transform your business? Contact our team for personalized assistance and discover how ISA can revolutionize your operations."
+            },
+            "contact": {
+                "form": {
+                    "title": "Contact Us for More Information",
+                    "subtitle": "You can benefit from a free trial of ISA POS!!!",
+                    "firstName": "First Name *",
+                    "lastName": "Last Name *",
+                    "business": "Business Name *",
+                    "phone": "Phone *",
+                    "email": "Email *",
+                    "need": "Your Need *",
+                    "message": "Comment or Need *",
+                    "messageSent": "Message Sent!",
+                    "send": "Send Message",
+                    "error_required": "This field is required",
+                    "error_email_required": "Email is required",
+                    "error_email_invalid": "Invalid email format",
+                    "error_phone_required": "Phone number is required",
+                    "error_phone_invalid": "Invalid phone number"
+                },
+                "image": {
+                    "title": "Get Started Today",
+                    "subtitle": "Join thousands of businesses that have chosen ISA to streamline their operations and boost performance. Start your free trial today.",
+                    "button": "Start Now"
+                },
+                "cards": {
+                    "address": {
+                        "title": "Address",
+                        "line1": "Yaoundé - Mfandena Omnisport",
+                        "line2": "General Management",
+                        "line3": "Douala - Akwa, place called Douala Bar",
+                        "line4": "Rue Pau",
+                        "line5": "BP 14 573 Yaoundé - Cameroon"
+                    },
+                    "hours": {
+                        "title": "Business Hours",
+                        "weekdays": "Monday to Friday",
+                        "weekdays_time": "8 AM - 5 PM",
+                        "saturday": "Saturday",
+                        "saturday_time": "8:30 AM - 1 PM",
+                        "emergency": "Emergency support available 24/7"
+                    },
+                    "contact": {
+                        "title": "Contact",
+                        "phone1": "+237 674 516 017",
+                        "phone2": "+237 688 096 778",
+                        "email": "contact@isa.com"
+                    }
+                }
+            },
+            "map": {
+                "title": "Find Us On The Map"
+            },
+            "cta": {
+                "title": "Ready to Get Started?",
+                "description": "Don't wait! Contact us today and discover how ISA can transform your business operations. Our team is ready to provide you with a personalized demonstration.",
+                "demo_button": "Schedule Free Demo",
+                "call_button": "Call Now: +237 674 516 017"
             }
         }
     },

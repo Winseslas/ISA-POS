@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import LanguageSelector from '../LanguageSelector';
@@ -7,6 +8,7 @@ export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { t } = useTranslation();
 
+  const location = useLocation();
   const navItems = [
     { name: t('components.header.home', 'Home'), href: '/' },
     { name: t('components.header.faq', 'FAQ'), href: '/faq' },
@@ -31,15 +33,24 @@ export const Header = () => {
 
           <div className="hidden md:flex items-center space-x-8">
             <nav className="flex items-center space-x-8">
-              {navItems.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className="text-gray-700 hover:text-green-600 transition-colors"
-                >
-                  {item.name}
-                </a>
-              ))}
+              {navItems.map((item) => {
+                const isActive = location.pathname === item.href;
+                return (
+                  <Link
+                    key={item.name}
+                    to={item.href}
+                    className={
+                      `transition-colors ${
+                        isActive
+                          ? 'text-green-600 font-bold'
+                          : 'text-gray-700 hover:text-green-600'
+                      }`
+                    }
+                  >
+                    {item.name}
+                  </Link>
+                );
+              })}
             </nav>
             
             <div className="border-l border-gray-200 h-6"></div>

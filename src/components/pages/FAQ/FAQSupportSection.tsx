@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { HelpCircle } from 'lucide-react';
 import { type FAQSupportSectionProps } from '../../../types/faq';
 
@@ -6,6 +7,7 @@ export const FAQSupportSection: React.FC<FAQSupportSectionProps> = ({ t }) => {
     const [isHoveringContact, setIsHoveringContact] = useState(false);
     const [isHoveringDemo, setIsHoveringDemo] = useState(false);
 
+    const navigate = useNavigate();
     return (
         <div className="mt-16 bg-green-600 rounded-2xl p-8 text-center text-white">
             <HelpCircle className="h-16 w-16 mx-auto mb-4 text-green-100" />
@@ -22,7 +24,7 @@ export const FAQSupportSection: React.FC<FAQSupportSectionProps> = ({ t }) => {
                     onMouseLeave={() => setIsHoveringContact(false)}
                     onMouseDown={() => setIsHoveringContact(false)}
                     onMouseUp={() => setIsHoveringContact(true)}
-                    onClick={() => window.open('https://isa-pos.com/contact', '_blank')}
+                    onClick={() => navigate('/contact') }
                 >
                     {t('pages.faqPage.support_section.contact_button')}
                 </button>
@@ -32,7 +34,7 @@ export const FAQSupportSection: React.FC<FAQSupportSectionProps> = ({ t }) => {
                     onMouseLeave={() => setIsHoveringDemo(false)}
                     onMouseDown={() => setIsHoveringDemo(false)}
                     onMouseUp={() => setIsHoveringDemo(true)}
-                    onClick={() => window.open('https://isa-pos.com/demo', '_blank')}
+                    onClick={() => navigate('/demo')}
                 >
                     {t('pages.faqPage.support_section.demo_button')}
                 </button>

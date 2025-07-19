@@ -11,6 +11,7 @@ import RootLayout from './layouts/root-layout';
 import IndexPage from './pages/index';
 import { FAQPage } from "./pages/faq";
 import ContactPage from "./pages/contact";
+import NotFoundPage from "./pages/notFound";
 
 type RootComponentProps = object
 
@@ -30,11 +31,7 @@ class RootComponent extends Component<RootComponentProps, RootComponentState> {
             { path: '/', element: <IndexPage /> },
             { path: '/faq', element: <FAQPage /> },
             { path: '/contact', element: <ContactPage /> },
-            // {  
-            //   path: '/services',
-            //   element: <ServicesPage />
-            // },
-            // { path: '*', element: <NotFoundPage /> },
+            { path: '*', element: <NotFoundPage /> },
           ],
         },
       ]),
