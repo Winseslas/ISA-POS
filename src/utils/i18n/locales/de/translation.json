@@ -1,0 +1,289 @@
+{
+    "siteTitle": "ISA POS",
+    "pages": {
+        "indexPage": {
+            "hero": {
+                "title": "ISA Verkaufsteam",
+                "description": "Verwalten Sie Ihr Verkaufsteam und dessen Leistung mit unserem umfassenden Verkaufsmanagementsystem, das für moderne Unternehmen entwickelt wurde.",
+                "button": "Mehr erfahren",
+                "image_alt": "Professionelle Frau mit Tablet"
+            },
+            "features": {
+                "sales_management": {
+                    "title": "Verkaufsmanagement",
+                    "description": "Umfassendes Management des Verkaufsteams und Leistungsverfolgung"
+                },
+                "business_analytics": {
+                    "title": "Geschäftsanalytik",
+                    "description": "Fortgeschrittene Analysen und Berichte für bessere Entscheidungsfindung"
+                },
+                "point_of_sale": {
+                    "title": "Kassensystem",
+                    "description": "Modernes Kassensystem mit integrierter Zahlungsabwicklung"
+                },
+                "mobile_support": {
+                    "title": "Mobile Unterstützung",
+                    "description": "Volle mobile Kompatibilität für das Management unterwegs"
+                }
+            },
+            "navigation": {
+                "restoration": "Gastronomie",
+                "beauty_institute": "Schönheitsinstitut",
+                "drinks_dancing": "Getränke & Tanz",
+                "commerce_shopping": "Handel & Einkaufen",
+                "miscellaneous_services": "Verschiedene Dienstleistungen"
+            },
+            "services": {
+                "restoration": {
+                    "title": "Gastronomie",
+                    "description": "Umfassende Restaurantmanagementlösung mit Bestellverfolgung, Lagerverwaltung und Optimierung des Kundenservices. Optimieren Sie Ihre Restaurantabläufe mit unserem umfassenden Kassensystem, das speziell für die Gastronomiebranche entwickelt wurde.",
+                    "items": [
+                        "Bestellmanagementsystem",
+                        "Integration der Küchenanzeige",
+                        "Tischverwaltung"
+                    ]
+                },
+                "beauty_institute": {
+                    "title": "Schönheitsinstitut",
+                    "description": "Spezialisiertes Managementsystem für Schönheitssalons und -institute. Verwalten Sie Termine, Kundenakten, Serviceverfolgung und Lagerverwaltung in einer integrierten Plattform, die für die Schönheitsbranche entwickelt wurde.",
+                    "items": [
+                        "Terminplanung",
+                        "Kundenmanagement",
+                        "Serviceverfolgung"
+                    ]
+                },
+                "drinks_dancing": {
+                    "title": "Getränke & Tanzen",
+                    "description": "Managementsystem für Nachtleben und Unterhaltungsorte. Ideal für Bars, Clubs und Unterhaltungsorte mit Funktionen für Veranstaltungsmanagement, Getränkeinventar und Optimierung der Kundenerfahrung.",
+                    "items": [
+                        "Veranstaltungsmanagement",
+                        "Lagerverwaltung",
+                        "Kundenanalyse"
+                    ]
+                },
+                "commerce_shopping": {
+                    "title": "Handel & Einkaufen",
+                    "description": "Umfassende Einzelhandelsmanagementlösung für Geschäfte und Einkaufszentren. Verwalten Sie Inventar, Verkäufe, Kundenbeziehungen und Analysen über eine leistungsstarke Plattform, die für den Erfolg im Einzelhandel entwickelt wurde.",
+                    "items": [
+                        "Lagerverwaltung",
+                        "Kundenbindungsprogramme",
+                        "Unterstützung für mehrere Standorte"
+                    ]
+                },
+                "miscellaneous_services": {
+                    "title": "Sonstige Dienstleistungen",
+                    "description": "Flexible Geschäftslösungen für verschiedene Dienstleistungsbranchen. Unsere anpassbare Plattform kann an die spezifischen Anforderungen Ihres Unternehmens und Ihrer betrieblichen Bedürfnisse angepasst werden.",
+                    "items": [
+                        "Benutzerdefinierte Arbeitsabläufe",
+                        "Flexible Berichterstellung",
+                        "Integrationsunterstützung"
+                    ]
+                }
+            },
+            "testimonials": {
+                "heading": "Was unsere Kunden sagen",
+                "description": "Entdecken Sie, warum Tausende von Unternehmen ISA vertrauen"
+            },
+            "cta": {
+                "alt_image": "Berufstätige Frau",
+                "heading": "Bereit, Ihr Unternehmen zu transformieren?",
+                "description": "Schließen Sie sich Tausenden von Unternehmen an, die ISA gewählt haben, um ihre Abläufe zu optimieren und ihre Leistung zu steigern. Starten Sie noch heute Ihre kostenlose Testversion.",
+                "button": "Jetzt starten"
+            },
+            "pricing": {
+                "title": "Preisgestaltung",
+                "lite_plan": {
+                    "name": "LITE",
+                    "price": "99 €/Monat",
+                    "description": "Perfekt für kleine Unternehmen, die ihre digitale Reise beginnen",
+                    "features": [
+                        "Grundlegendes POS-System",
+                        "Bis zu 2 Benutzer",
+                        "Grundlegende Berichte"
+                    ],
+                    "button": "Plan auswählen"
+                },
+                "smart_plan": {
+                    "name": "SMART",
+                    "price": "199 €/Monat",
+                    "description": "Ideal für wachsende Unternehmen mit fortgeschrittenen Anforderungen",
+                    "features": [
+                        "Fortgeschrittenes POS-System",
+                        "Bis zu 10 Benutzer",
+                        "Fortgeschrittene Analytik"
+                    ],
+                    "button": "Plan auswählen"
+                },
+                "above_lite_plan": {
+                    "name": "ÜBER LITE",
+                    "price": "299 €/Monat",
+                    "description": "Umfassende Lösung für etablierte Unternehmen",
+                    "features": [
+                        "Vollständige POS-Suite",
+                        "Unbegrenzte Benutzer",
+                        "Premium-Support"
+                    ],
+                    "button": "Plan auswählen"
+                },
+                "infinity_plan": {
+                    "name": "INFINITY",
+                    "price": "499 €/Monat",
+                    "description": "Unternehmenslösung mit unbegrenzten Möglichkeiten",
+                    "features": [
+                        "Unternehmensfunktionen",
+                        "Maßgeschneiderte Integration",
+                        "24/7-Prioritätssupport"
+                    ],
+                    "button": "Plan auswählen"
+                }
+            },
+            "download": {
+                "heading": "Jetzt herunterladen !!!",
+                "app_store_button": "App Store",
+                "google_play_button": "Google Play"
+            },
+            "aboutISA": {
+                "heading": "Über ISA",
+                "description_1": "ISA ist die innovative digitale Lösung für kleine und mittelständische Unternehmen im kommerziellen Sektor, die darauf abzielt, Geschäftsprozesse zu optimieren. Unser Team besteht aus jungen, dynamischen und erfahrenen Fachleuten im Bereich Informationstechnologie und Unternehmensmanagement.",
+                "description_2": "Wir verstehen die Herausforderungen, mit denen moderne Unternehmen konfrontiert sind, und haben umfassende Lösungen entwickelt, die diese Bedürfnisse effektiv erfüllen. Unsere Plattform kombiniert modernste Technologie mit benutzerfreundlichen Schnittstellen, um außergewöhnliche Ergebnisse zu liefern.",
+                "description_3": "Mit ISA erhalten Sie nicht nur Software – Sie gewinnen einen Partner, der sich Ihrem Erfolg verschrieben hat. Wir bieten kontinuierlichen Support, regelmäßige Updates und ständige Innovation, um sicherzustellen, dass Ihr Unternehmen der Konkurrenz voraus bleibt.",
+                "image_alt_1": "Teammitglied 1",
+                "image_alt_2": "Teammitglied 2",
+                "image_alt_3": "Teammitglied 3",
+                "image_alt_4": "Teammitglied 4"
+            }
+        },
+        "faqPage": {
+            "title": "FAQ",
+            "image_alt": "ISA-Gerät",
+            "description_1": " ist die innovative All-in-One-Managementlösung",
+            "description_2": "für Verkaufsstellen, Vertriebsmitarbeiter und Dienstleister, verfügbar mit oder ohne Verbindung und rund um die Uhr verfügbar.",
+            "description_3": " ist einfaches Management (Rechnungsstellung, Zahlungen, Ausgaben, Inventar, Buchhaltung, Dashboards usw.)",
+            "categories": {
+                "general": "Allgemeine Informationen & Voraussetzungen",
+                "discover": "ISA entdecken & abonnieren"
+            },
+            "faq_items": [
+                {
+                    "id": 1,
+                    "category": "general",
+                    "question": "Wie ist das Verfahren zum Abonnieren von ISA?",
+                    "answer": "Um ISA zu abonnieren, besuchen Sie einfach unsere Website, wählen Sie Ihren bevorzugten Plan (LITE, SMART, ÜBER LITE oder INFINITY), füllen Sie das Anmeldeformular mit Ihren Unternehmensdaten aus und schließen Sie den Zahlungsvorgang ab. Unser Team wird Sie innerhalb von 24 Stunden kontaktieren, um Ihr Konto einzurichten und Schulungen anzubieten."
+                },
+                {
+                    "id": 2,
+                    "category": "general",
+                    "question": "Ist ISA kostenlos?",
+                    "answer": "ISA bietet eine 14-tägige kostenlose Testversion für alle neuen Benutzer. Nach Ablauf der Testphase müssen Sie einen unserer Abonnementpläne ab 99 €/Monat für den LITE-Plan wählen. Wir glauben an den Mehrwert, den wir bieten, sodass Sie alle Funktionen vor einer Verpflichtung testen können."
+                },
+                {
+                    "id": 3,
+                    "category": "general",
+                    "question": "Android / iOS - Funktionen?",
+                    "answer": "Ja! ISA ist vollständig kompatibel mit Android- und iOS-Geräten. Unsere mobile App bietet alle wesentlichen Funktionen, einschließlich POS-Funktionen, Lagerverwaltung, Verkaufsverfolgung und Echtzeit-Berichterstattung. Laden Sie sie aus dem Google Play Store oder Apple App Store herunter."
+                },
+                {
+                    "id": 4,
+                    "category": "general",
+                    "question": "Ist ISA auf Laptop/PC nutzbar?",
+                    "answer": "Absolut! ISA funktioniert nahtlos auf Laptops und Desktop-Computern über jeden modernen Webbrowser. Die Webversion enthält alle Funktionen und bietet ein umfassendes Dashboard zur Verwaltung Ihrer Geschäftsabläufe mit größerem Bildschirmplatz."
+                },
+                {
+                    "id": 5,
+                    "category": "general",
+                    "question": "Optionale Ausrüstung",
+                    "answer": "Während ISA mit Standardgeräten funktioniert, empfehlen wir optionale Ausrüstung für erweiterte Funktionalität: Belegdrucker, Barcodescanner, Kassenschubladen, Kartenleser und Tablet-Ständer. Unser Team kann Ihnen helfen, die richtige Ausrüstung für Ihren Geschäftstyp auszuwählen."
+                },
+                {
+                    "id": 6,
+                    "category": "discover",
+                    "question": "Wie kann ich ISA herunterladen und testen?",
+                    "answer": "Besuchen Sie unsere Website und klicken Sie auf 'Jetzt starten', um Ihre kostenlose 14-tägige Testversion zu beginnen. Sie können die mobile App aus dem App-Store Ihres Geräts herunterladen oder direkt über Ihren Browser auf die Webversion zugreifen. Für die Testphase ist keine Kreditkarte erforderlich."
+                },
+                {
+                    "id": 7,
+                    "category": "discover",
+                    "question": "Wie abonniere ich ISA?",
+                    "answer": "Nach Ihrer Testphase melden Sie sich in Ihrem ISA-Konto an, gehen Sie zu 'Abrechnung & Abonnement', wählen Sie Ihren bevorzugten Plan aus, geben Sie Ihre Zahlungsinformationen ein und bestätigen Sie Ihr Abonnement. Sie erhalten sofortigen Zugriff auf alle Premium-Funktionen basierend auf Ihrem gewählten Plan."
+                },
+                {
+                    "id": 8,
+                    "category": "discover",
+                    "question": "Wie verbinde ich mich mit ISA?",
+                    "answer": "Die Verbindung zu ISA ist einfach: Stellen Sie sicher, dass Sie eine stabile Internetverbindung haben, öffnen Sie die ISA-App oder das Webportal, geben Sie Ihre Anmeldeinformationen ein, und Sie sind verbunden! Das System funktioniert sowohl online als auch offline und synchronisiert Daten, wenn die Verbindung wiederhergestellt ist."
+                },
+                {
+                    "id": 9,
+                    "category": "discover",
+                    "question": "Welche Zahlungsmethoden werden akzeptiert?",
+                    "answer": "Wir akzeptieren alle gängigen Kreditkarten (Visa, MasterCard, American Express), PayPal, Banküberweisungen und mobile Geldzahlungen. Für Unternehmenskunden bieten wir auch eine Rechnungsstellung mit NET 30-Bedingungen an."
+                },
+                {
+                    "id": 10,
+                    "category": "discover",
+                    "question": "Überblick über ISA?",
+                    "answer": "ISA ist eine umfassende Unternehmensmanagementlösung, die für Restaurants, Schönheitssalons, Einzelhandelsgeschäfte, Bars und Dienstleistungsunternehmen entwickelt wurde. Sie umfasst POS-Systeme, Lagerverwaltung, Kundenbeziehungstools, Analysen und Unterstützung für mehrere Standorte – alles in einer integrierten Plattform."
+                },
+                {
+                    "id": 11,
+                    "category": "discover",
+                    "question": "Wie schule ich mich für ISA?",
+                    "answer": "Wir bieten umfassende Schulungen an, einschließlich: Live-Onboarding-Sitzungen, Video-Tutorials, detaillierte Dokumentation, Übungsumgebungen und fortlaufenden Support. Unser Schulungsteam stellt sicher, dass Sie und Ihr Personal mit allen ISA-Funktionen vor dem Live-Betrieb vollkommen vertraut sind."
+                }
+            ],
+            "support_section": {
+                "heading": "Haben Sie noch Fragen?",
+                "description": "Unser Support-Team ist rund um die Uhr für Sie da. Kontaktieren Sie uns für persönliche Unterstützung und detaillierte Antworten auf Ihre spezifischen Fragen.",
+                "contact_button": "Support kontaktieren",
+                "demo_button": "Demo planen"
+            }
+        }
+    },
+    "components": {
+        "header": {
+            "home": "Startseite",
+            "about": "Über uns",
+            "services": "Dienstleistungen",
+            "faq": "FAQ",
+            "contact": "Kontakt"
+        },
+        "footer": {
+            "description": "Innovative Lösungen für moderne Unternehmen. Transformieren Sie Ihre Abläufe mit unseren umfassenden POS- und Managementsystemen.",
+            "services": {
+                "title": "Dienstleistungen",
+                "restaurant_pos": "Restaurant-Kassensystem",
+                "beauty_salon": "Schönheitssalon",
+                "retail_management": "Einzelhandelsmanagement",
+                "entertainment": "Unterhaltung"
+            },
+            "support": {
+                "title": "Support",
+                "help_center": "Hilfezentrum",
+                "documentation": "Dokumentation",
+                "training": "Schulung",
+                "contact_us": "Kontaktieren Sie uns"
+            },
+            "contact": {
+                "title": "Kontakt",
+                "phone": "+1 (555) 123-4567",
+                "email": "contact@isa.com",
+                "address": "123 Geschäftsallee\nSuite 100\nStadt, Bundesland 12345"
+            },
+            "copyright": "Copyright © 2024 {{ displayYear }} Winseslas. Alle Rechte vorbehalten.",
+            "madeWithLove": "Mit ❤️ von Winseslas erstellt.",
+            "languageLabel": "Sprache "
+        }
+    },
+    "socialLinks": {
+        "github": "Github",
+        "facebook": "Facebook",
+        "x": "X",
+        "instagram": "Instagram",
+        "youtube": "Youtube"
+    },
+    "common": {
+        "error": "Fehler",
+        "errorMessage": "Ein Fehler ist aufgetreten",
+        "successMessage": "Vorgang erfolgreich"
+    }
+}

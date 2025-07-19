@@ -1,0 +1,289 @@
+{
+    "siteTitle": "ISA POS",
+    "pages": {
+        "indexPage": {
+            "hero": {
+                "title": "ISA Sales Force",
+                "description": "Manage your Sales force and their performance with our comprehensive sales management system designed for modern businesses.",
+                "button": "Learn More",
+                "image_alt": "Professional woman with tablet"
+            },
+            "features": {
+                "sales_management": {
+                    "title": "Sales Management",
+                    "description": "Comprehensive sales team management and performance tracking"
+                },
+                "business_analytics": {
+                    "title": "Business Analytics",
+                    "description": "Advanced analytics and reporting for better decision making"
+                },
+                "point_of_sale": {
+                    "title": "Point of Sale",
+                    "description": "Modern POS system with integrated payment processing"
+                },
+                "mobile_support": {
+                    "title": "Mobile Support",
+                    "description": "Full mobile compatibility for on-the-go management"
+                }
+            },
+            "navigation": {
+                "restoration": "Restoration",
+                "beauty_institute": "Beauty Institute",
+                "drinks_dancing": "Drinks & Dancing",
+                "commerce_shopping": "Commerce & Shopping",
+                "miscellaneous_services": "Miscellaneous Services"
+            },
+            "services": {
+                "restoration": {
+                    "title": "Restoration",
+                    "description": "Complete restaurant management solution with order tracking, inventory management, and customer service optimization. Streamline your restaurant operations with our comprehensive POS system designed specifically for the food service industry.",
+                    "items": [
+                        "Order Management System",
+                        "Kitchen Display Integration",
+                        "Table Management"
+                    ]
+                },
+                "beauty_institute": {
+                    "title": "Beauty Institute",
+                    "description": "Specialized management system for beauty salons and institutes. Handle appointments, client records, service tracking, and inventory management all in one integrated platform designed for the beauty industry.",
+                    "items": [
+                        "Appointment Scheduling",
+                        "Client Management",
+                        "Service Tracking"
+                    ]
+                },
+                "drinks_dancing": {
+                    "title": "Drinks & Dancing",
+                    "description": "Nightlife and entertainment venue management system. Perfect for bars, clubs, and entertainment venues with features for event management, drink inventory, and customer experience optimization.",
+                    "items": [
+                        "Event Management",
+                        "Inventory Control",
+                        "Customer Analytics"
+                    ]
+                },
+                "commerce_shopping": {
+                    "title": "Commerce & Shopping",
+                    "description": "Comprehensive retail management solution for stores and shopping centers. Manage inventory, sales, customer relationships, and analytics all from one powerful platform designed for retail success.",
+                    "items": [
+                        "Inventory Management",
+                        "Customer Loyalty Programs",
+                        "Multi-location Support"
+                    ]
+                },
+                "miscellaneous_services": {
+                    "title": "Miscellaneous Services",
+                    "description": "Flexible business management solutions for various service industries. Our adaptable platform can be customized to meet the unique needs of your specific business type and operational requirements.",
+                    "items": [
+                        "Custom Workflows",
+                        "Flexible Reporting",
+                        "Integration Support"
+                    ]
+                }
+            },
+            "testimonials": {
+                "heading": "What Our Customers Say",
+                "description": "Discover why thousands of businesses trust ISA"
+            },
+            "cta": {
+                "alt_image": "Professional woman",
+                "heading": "Ready to transform your business?",
+                "description": "Join thousands of businesses that have chosen ISA to streamline their operations and boost their performance. Start your free trial today.",
+                "button": "Get Started Now"
+            },
+            "pricing": {
+                "title": "Pricing",
+                "lite_plan": {
+                    "name": "LITE",
+                    "price": "$99/Month",
+                    "description": "Perfect for small businesses starting their digital journey",
+                    "features": [
+                        "Basic POS System",
+                        "Up to 2 Users",
+                        "Basic Reporting"
+                    ],
+                    "button": "Choose Plan"
+                },
+                "smart_plan": {
+                    "name": "SMART",
+                    "price": "$199/Month",
+                    "description": "Ideal for growing businesses with advanced needs",
+                    "features": [
+                        "Advanced POS System",
+                        "Up to 10 Users",
+                        "Advanced Analytics"
+                    ],
+                    "button": "Choose Plan"
+                },
+                "above_lite_plan": {
+                    "name": "ABOVE LITE",
+                    "price": "$299/Month",
+                    "description": "Comprehensive solution for established businesses",
+                    "features": [
+                        "Full POS Suite",
+                        "Unlimited Users",
+                        "Premium Support"
+                    ],
+                    "button": "Choose Plan"
+                },
+                "infinity_plan": {
+                    "name": "INFINITY",
+                    "price": "$499/Month",
+                    "description": "Enterprise solution with unlimited possibilities",
+                    "features": [
+                        "Enterprise Features",
+                        "Custom Integration",
+                        "24/7 Priority Support"
+                    ],
+                    "button": "Choose Plan"
+                }
+            },
+            "download": {
+                "heading": "Download Now !!!",
+                "app_store_button": "App Store",
+                "google_play_button": "Google Play"
+            },
+            "aboutISA": {
+                "heading": "About ISA",
+                "description_1": "ISA is the innovative digital solution for small and medium-sized enterprises in the commercial sector, aiming at optimizing business processes. Our team is made up of young, dynamic, and experienced professionals in the field of information technology and business management.",
+                "description_2": "We understand the challenges faced by modern businesses and have developed comprehensive solutions that address these needs effectively. Our platform combines cutting-edge technology with user-friendly interfaces to deliver exceptional results.",
+                "description_3": "With ISA, you're not just getting software - you're getting a partner committed to your success. We provide ongoing support, regular updates, and continuous innovation to ensure your business stays ahead of the competition.",
+                "image_alt_1": "Team member 1",
+                "image_alt_2": "Team member 2",
+                "image_alt_3": "Team member 3",
+                "image_alt_4": "Team member 4"
+            }
+        },
+        "faqPage": {
+            "title": "FAQ",
+            "image_alt": "ISA Device",
+            "description_1": " is the innovative all-in-one management solution",
+            "description_2": "for points of sale, sales agents, and service providers, available with or without a connection and available 24/7.",
+            "description_3": " is easy management (invoicing, collections, expenses, inventory, accounting, dashboards, etc.)",
+            "categories": {
+                "general": "General Information & Prerequisites",
+                "discover": "Discover & Subscribe to ISA"
+            },
+            "faq_items": [
+                {
+                    "id": 1,
+                    "category": "general",
+                    "question": "What is the procedure for subscribing to ISA?",
+                    "answer": "To subscribe to ISA, simply visit our website, choose your preferred plan (LITE, SMART, ABOVE LITE, or INFINITY), fill out the registration form with your business details, and complete the payment process. Our team will then contact you within 24 hours to set up your account and provide training."
+                },
+                {
+                    "id": 2,
+                    "category": "general",
+                    "question": "Is ISA free?",
+                    "answer": "ISA offers a 14-day free trial for all new users. After the trial period, you'll need to choose from our subscription plans starting at $99/month for the LITE plan. We believe in providing value, so you can test all features before committing."
+                },
+                {
+                    "id": 3,
+                    "category": "general",
+                    "question": "Android / iOS - feature?",
+                    "answer": "Yes! ISA is fully compatible with both Android and iOS devices. Our mobile app provides all the essential features including POS functionality, inventory management, sales tracking, and real-time reporting. Download from Google Play Store or Apple App Store."
+                },
+                {
+                    "id": 4,
+                    "category": "general",
+                    "question": "Is ISA usable on Laptop/PC?",
+                    "answer": "Absolutely! ISA works seamlessly on laptops and desktop computers through any modern web browser. The web version includes all features and provides a comprehensive dashboard for managing your business operations with larger screen real estate."
+                },
+                {
+                    "id": 5,
+                    "category": "general",
+                    "question": "Optional Equipment",
+                    "answer": "While ISA works with standard devices, we recommend optional equipment for enhanced functionality: receipt printers, barcode scanners, cash drawers, card readers, and tablet stands. Our team can help you choose the right equipment for your business type."
+                },
+                {
+                    "id": 6,
+                    "category": "discover",
+                    "question": "How to download & test ISA?",
+                    "answer": "Visit our website and click 'Get Started Now' to begin your free 14-day trial. You can download the mobile app from your device's app store or access the web version directly through your browser. No credit card required for the trial period."
+                },
+                {
+                    "id": 7,
+                    "category": "discover",
+                    "question": "How to subscribe to ISA?",
+                    "answer": "After your trial period, log into your ISA account, go to 'Billing & Subscription', select your preferred plan, enter your payment information, and confirm your subscription. You'll receive immediate access to all premium features based on your chosen plan."
+                },
+                {
+                    "id": 8,
+                    "category": "discover",
+                    "question": "How to connect to ISA?",
+                    "answer": "Connection to ISA is simple: ensure you have a stable internet connection, open the ISA app or web portal, enter your login credentials, and you're connected! The system works both online and offline, syncing data when connection is restored."
+                },
+                {
+                    "id": 9,
+                    "category": "discover",
+                    "question": "What payment methods are accepted?",
+                    "answer": "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, bank transfers, and mobile money payments. For enterprise clients, we also offer invoice-based billing with NET 30 terms."
+                },
+                {
+                    "id": 10,
+                    "category": "discover",
+                    "question": "ISA overview?",
+                    "answer": "ISA is a comprehensive business management solution designed for restaurants, beauty salons, retail stores, bars, and service businesses. It includes POS systems, inventory management, customer relationship tools, analytics, and multi-location support - all in one integrated platform."
+                },
+                {
+                    "id": 11,
+                    "category": "discover",
+                    "question": "How to train for ISA?",
+                    "answer": "We provide comprehensive training including: live onboarding sessions, video tutorials, detailed documentation, practice environments, and ongoing support. Our training team ensures you and your staff are fully comfortable with all ISA features before going live."
+                }
+            ],
+            "support_section": {
+                "heading": "Still have questions?",
+                "description": "Our support team is here to help you 24/7. Get in touch with us for personalized assistance and detailed answers to your specific questions.",
+                "contact_button": "Contact Support",
+                "demo_button": "Schedule Demo"
+            }
+        }
+    },
+    "components": {
+        "header": {
+            "home": "Home",
+            "about": "About",
+            "services": "Services",
+            "faq": "FAQ",
+            "contact": "Contact"
+        },
+        "footer": {
+            "description": "Innovative solutions for modern businesses. Transform your operations with our comprehensive POS and management systems.",
+            "services": {
+                "title": "Services",
+                "restaurant_pos": "Restaurant POS",
+                "beauty_salon": "Beauty Salon",
+                "retail_management": "Retail Management",
+                "entertainment": "Entertainment"
+            },
+            "support": {
+                "title": "Support",
+                "help_center": "Help Center",
+                "documentation": "Documentation",
+                "training": "Training",
+                "contact_us": "Contact Us"
+            },
+            "contact": {
+                "title": "Contact",
+                "phone": "+1 (555) 123-4567",
+                "email": "contact@isa.com",
+                "address": "123 Business Ave\nSuite 100\nCity, State 12345"
+            },
+            "copyright": "Copyright © 2024 {{ displayYear }} Winseslas. All Rights Reserved.",
+            "madeWithLove": "Made with ❤️ by Winseslas.",
+            "languageLabel": "Language "
+        }
+    },
+    "socialLinks": {
+        "github": "Github",
+        "facebook": "Facebook",
+        "x": "X",
+        "instagram": "Instagram",
+        "youtube": "Youtube"
+    },
+    "common": {
+        "error": "Error",
+        "errorMessage": "An error has occurred",
+        "successMessage": "Operation successful"
+    }
+}
