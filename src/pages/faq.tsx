@@ -3,9 +3,9 @@ import { HelpCircle, Smartphone, Laptop, CreditCard, Download, Users, Settings, 
 import { Footer } from '../components/common/Footer/Footer';
 import { Header } from '../components/common/Header/Header';
 import { useTranslation } from 'react-i18next';
-import { FAQSupportSection } from '../components/sections/FAQ/FAQSupportSection';
-import { FAQHeader } from '../components/sections/FAQ/FAQHeader';
-import { FAQCategory } from '../components/sections/FAQ/FAQCategory';
+import { FAQSupportSection } from '../components/pages/FAQ/FAQSupportSection';
+import { FAQHeader } from '../components/pages/FAQ/FAQHeader';
+import { FAQCategory } from '../components/pages/FAQ/FAQCategory';
 
 export interface FAQItemData {
     id: number;

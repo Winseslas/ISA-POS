@@ -1,5 +1,5 @@
 import { Header } from "../components/common/Header/Header";
-import { Contact } from "../components/sections/Contact/Contact";
+import { Contact } from "../components/pages/Contact/Contact";
 import { Footer } from "../components/common/Footer/Footer";
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';

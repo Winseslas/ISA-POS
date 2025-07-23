@@ -32,3 +32,7 @@ export interface FAQContextType {
     openItemId: number | null;
     setOpenItemId: (id: number | null) => void;
 }
+
+export interface FAQProviderProps {
+    children: React.ReactNode;
+}
