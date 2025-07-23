@@ -12,6 +12,7 @@ export const Header = () => {
   const navItems = [
     { name: t('components.header.home', 'Home'), href: '/' },
     { name: t('components.header.faq', 'FAQ'), href: '/faq' },
+    { name: t('components.header.pricing', 'Pricing'), href: '/pricing' },
     { name: t('components.header.contact', 'Contact'), href: '/contact' },
   ];
 

@@ -308,6 +308,7 @@
     "components": {
         "header": {
             "home": "Accueil",
+            "pricing": "Tarifs",
             "about": "A propos",
             "services": "Services",
             "faq": "Foire aux Questions",

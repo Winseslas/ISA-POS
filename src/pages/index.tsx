@@ -1,19 +1,19 @@
 import { Footer } from "../components/common/Footer/Footer";
 import { Header } from "../components/common/Header/Header";
-import { Hero } from "../components/pages/home/Hero/Hero";
-import { Features } from "../components/pages/home/Features/Features";
-import { Navigation } from "../components/pages/home/Navigation";
-import { Services } from "../components/pages/home/Services/Services";
-import { CTA } from "../components/pages/home/CTA/CTA";
-import { Pricing } from "../components/pages/home/Pricing/Pricing";
-import { Download } from "../components/pages/home/Download/Download";
-import { AboutISA } from "../components/pages/home/About/AboutISA";
-import { Testimonials } from "../components/pages/home/Testimonials/Testimonials";
+import { Hero } from "../components/sections/home/Hero/Hero";
+import { Features } from "../components/sections/home/Features/Features";
+import { Navigation } from "../components/sections/home/Navigation";
+import { Services } from "../components/sections/home/Services/Services";
+import { CTA } from "../components/sections/home/CTA/CTA";
+import { Pricing } from "../components/sections/home/Pricing/Pricing";
+import { Download } from "../components/sections/home/Download/Download";
+import { AboutISA } from "../components/sections/home/About/AboutISA";
+import { Testimonials } from "../components/sections/home/Testimonials/Testimonials";
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 
 export default function IndexPage() {
-  
+
   const { t } = useTranslation();
   useEffect(() => {
     document.title = `ISA POS - ${t('components.header.home', 'Home')}`;
@@ -44,7 +44,7 @@ export default function IndexPage() {
 
       {/* Pricing Section */}
       <Pricing />
-      
+
       {/* Download Section */}
       <Download />
 

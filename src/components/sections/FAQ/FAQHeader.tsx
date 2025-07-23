@@ -1,4 +1,4 @@
-import type { FAQHeaderProps } from '../../../types/faq';
+import type { FAQHeaderProps } from '../../../types/faq.types';
 
 export const FAQHeader: React.FC<FAQHeaderProps> = ({ t }) => {
     return (

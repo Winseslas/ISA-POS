@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { HelpCircle } from 'lucide-react';
-import { type FAQSupportSectionProps } from '../../../types/faq';
+import { type FAQSupportSectionProps } from '../../../types/faq.types';
 
 export const FAQSupportSection: React.FC<FAQSupportSectionProps> = ({ t }) => {
     const [isHoveringContact, setIsHoveringContact] = useState(false);

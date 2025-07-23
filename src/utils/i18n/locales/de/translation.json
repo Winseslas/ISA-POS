@@ -308,6 +308,7 @@
     "components": {
         "header": {
             "home": "Startseite",
+            "pricing": "Preise",
             "about": "Über uns",
             "services": "Dienstleistungen",
             "faq": "FAQ",

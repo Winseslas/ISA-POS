@@ -9,9 +9,13 @@ import "./index.css";
 // Import the layouts
 import RootLayout from './layouts/root-layout';
 import IndexPage from './pages/index';
-import { FAQPage } from "./pages/faq";
-import ContactPage from "./pages/contact";
-import NotFoundPage from "./pages/notFound";
+import { FAQPage } from './pages/faq';
+import ContactPage from './pages/contact';
+import NotFoundPage from './pages/404';
+import AdminLogin from './pages/admin/login';
+import AdminDashboard from './pages/admin/dashboard';
+import ProtectedRoute from './components/ProtectedRoute';
+import PricingPage from "./pages/pricing";
 
 type RootComponentProps = object
 
@@ -31,6 +35,16 @@ class RootComponent extends Component<RootComponentProps, RootComponentState> {
             { path: '/', element: <IndexPage /> },
             { path: '/faq', element: <FAQPage /> },
             { path: '/contact', element: <ContactPage /> },
+            { path: '/pricing', element: <PricingPage /> },
+            { path: '/admin/login', element: <AdminLogin /> },
+            {
+              path: '/admin/dashboard',
+              element: (
+                <ProtectedRoute>
+                  <AdminDashboard />
+                </ProtectedRoute>
+              )
+            },
             { path: '*', element: <NotFoundPage /> },
           ],
         },

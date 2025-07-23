@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Menu, X, Phone, Mail, MapPin, Download, Check, Users, Building, ShoppingCart } from 'lucide-react';
-import { TestimonialSlider } from './components/pages/home/Testimonials/TestimonialSlider';
-import { ImageSlider } from './components/pages/home/Services/ImageSlider';
-import { ThumbnailSlider } from './components/pages/home/Services/ThumbnailSlider';
+import { TestimonialSlider } from './../components/pages/home/Testimonials/TestimonialSlider';
+import { ImageSlider } from './../components/pages/home/Services/ImageSlider';
+import { ThumbnailSlider } from './../components/pages/home/Services/ThumbnailSlider';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,7 +31,7 @@ function App() {
             </nav>
 
             {/* Mobile menu button */}
-            <button 
+            <button
               className="md:hidden"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
@@ -62,9 +62,9 @@ function App() {
                 ISA Sales Force
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Manage your Sales force and their 
-                performance with our comprehensive 
-                sales management system designed 
+                Manage your Sales force and their
+                performance with our comprehensive
+                sales management system designed
                 for modern businesses.
               </p>
               <button className="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors">
@@ -73,9 +73,9 @@ function App() {
             </div>
             <div className="relative">
               <div className="w-full h-96 bg-gradient-to-br from-green-100 to-orange-100 rounded-2xl flex items-center justify-center">
-                <img 
-                  src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600" 
-                  alt="Professional woman with tablet" 
+                <img
+                  src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Professional woman with tablet"
                   className="w-full h-full object-cover rounded-2xl"
                 />
               </div>
@@ -112,52 +112,52 @@ function App() {
         </div>
       </section>
 
-     {/* Navigation Buttons */}
-     <section className="bg-green-600 py-4 sticky top-16 z-40">
-       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-         <div className="flex justify-center space-x-1 flex-wrap gap-2">
-           <a 
-             href="#restoration" 
-             className="bg-gray-700 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
-           >
-             Restoration
-           </a>
-           <a 
-             href="#beauty-institute" 
-             className="bg-gray-700 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
-           >
-             Institut de Beauté
-           </a>
-           <a 
-             href="#drinks-dancing" 
-             className="bg-gray-700 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
-           >
-             Boisson & Dancing
-           </a>
-           <a 
-             href="#commerce-shopping" 
-             className="bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium"
-           >
-             Commerce & Shopping
-           </a>
-           <a 
-             href="#miscellaneous-services" 
-             className="bg-gray-700 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
-           >
-             Service Divers
-           </a>
-         </div>
-       </div>
-     </section>
+      {/* Navigation Buttons */}
+      <section className="bg-green-600 py-4 sticky top-16 z-40">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-center space-x-1 flex-wrap gap-2">
+            <a
+              href="#restoration"
+              className="bg-gray-700 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+            >
+              Restoration
+            </a>
+            <a
+              href="#beauty-institute"
+              className="bg-gray-700 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+            >
+              Institut de Beauté
+            </a>
+            <a
+              href="#drinks-dancing"
+              className="bg-gray-700 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+            >
+              Boisson & Dancing
+            </a>
+            <a
+              href="#commerce-shopping"
+              className="bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium"
+            >
+              Commerce & Shopping
+            </a>
+            <a
+              href="#miscellaneous-services"
+              className="bg-gray-700 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+            >
+              Service Divers
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Services Sections */}
-     <section className="py-20 bg-white" id="services">
+      <section className="py-20 bg-white" id="services">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
-          
+
           {/* Restoration */}
           <div id="restoration" className="grid lg:grid-cols-2 gap-12 items-center scroll-mt-24">
             <div>
-              <ImageSlider 
+              <ImageSlider
                 images={[
                   "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=600",
                   "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -171,8 +171,8 @@ function App() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Restoration</h2>
               <p className="text-gray-600 mb-6">
-                Complete restaurant management solution with order tracking, inventory management, 
-                and customer service optimization. Streamline your restaurant operations with our 
+                Complete restaurant management solution with order tracking, inventory management,
+                and customer service optimization. Streamline your restaurant operations with our
                 comprehensive POS system designed specifically for the food service industry.
               </p>
               <ul className="space-y-3 mb-6">
@@ -189,7 +189,7 @@ function App() {
                   <span className="text-gray-700">Table Management</span>
                 </li>
               </ul>
-              <ThumbnailSlider 
+              <ThumbnailSlider
                 images={[
                   "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=150",
                   "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=150",
@@ -208,8 +208,8 @@ function App() {
             <div className="order-2 lg:order-1">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Beauty Institute</h2>
               <p className="text-gray-600 mb-6">
-                Specialized management system for beauty salons and institutes. Handle appointments, 
-                client records, service tracking, and inventory management all in one integrated platform 
+                Specialized management system for beauty salons and institutes. Handle appointments,
+                client records, service tracking, and inventory management all in one integrated platform
                 designed for the beauty industry.
               </p>
               <ul className="space-y-3 mb-6">
@@ -226,7 +226,7 @@ function App() {
                   <span className="text-gray-700">Service Tracking</span>
                 </li>
               </ul>
-              <ThumbnailSlider 
+              <ThumbnailSlider
                 images={[
                   "https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=150",
                   "https://images.pexels.com/photos/3997989/pexels-photo-3997989.jpeg?auto=compress&cs=tinysrgb&w=150",
@@ -239,7 +239,7 @@ function App() {
               />
             </div>
             <div className="order-1 lg:order-2">
-              <ImageSlider 
+              <ImageSlider
                 images={[
                   "https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=600",
                   "https://images.pexels.com/photos/3997989/pexels-photo-3997989.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -255,7 +255,7 @@ function App() {
           {/* Drinks & Dancing */}
           <div id="drinks-dancing" className="grid lg:grid-cols-2 gap-12 items-center scroll-mt-24">
             <div>
-              <ImageSlider 
+              <ImageSlider
                 images={[
                   "https://images.pexels.com/photos/274192/pexels-photo-274192.jpeg?auto=compress&cs=tinysrgb&w=600",
                   "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -269,8 +269,8 @@ function App() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Drinks & Dancing</h2>
               <p className="text-gray-600 mb-6">
-                Nightlife and entertainment venue management system. Perfect for bars, clubs, and 
-                entertainment venues with features for event management, drink inventory, and 
+                Nightlife and entertainment venue management system. Perfect for bars, clubs, and
+                entertainment venues with features for event management, drink inventory, and
                 customer experience optimization.
               </p>
               <ul className="space-y-3 mb-6">
@@ -287,7 +287,7 @@ function App() {
                   <span className="text-gray-700">Customer Analytics</span>
                 </li>
               </ul>
-              <ThumbnailSlider 
+              <ThumbnailSlider
                 images={[
                   "https://images.pexels.com/photos/274192/pexels-photo-274192.jpeg?auto=compress&cs=tinysrgb&w=150",
                   "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=150",
@@ -306,8 +306,8 @@ function App() {
             <div className="order-2 lg:order-1">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Commerce & Shopping</h2>
               <p className="text-gray-600 mb-6">
-                Comprehensive retail management solution for stores and shopping centers. 
-                Manage inventory, sales, customer relationships, and analytics all from 
+                Comprehensive retail management solution for stores and shopping centers.
+                Manage inventory, sales, customer relationships, and analytics all from
                 one powerful platform designed for retail success.
               </p>
               <ul className="space-y-3 mb-6">
@@ -324,7 +324,7 @@ function App() {
                   <span className="text-gray-700">Multi-location Support</span>
                 </li>
               </ul>
-              <ThumbnailSlider 
+              <ThumbnailSlider
                 images={[
                   "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=150",
                   "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=150",
@@ -337,7 +337,7 @@ function App() {
               />
             </div>
             <div className="order-1 lg:order-2">
-              <ImageSlider 
+              <ImageSlider
                 images={[
                   "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600",
                   "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -353,7 +353,7 @@ function App() {
           {/* Miscellaneous Services */}
           <div id="miscellaneous-services" className="grid lg:grid-cols-2 gap-12 items-center scroll-mt-24">
             <div>
-              <ImageSlider 
+              <ImageSlider
                 images={[
                   "https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=600",
                   "https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -367,8 +367,8 @@ function App() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Miscellaneous Services</h2>
               <p className="text-gray-600 mb-6">
-                Flexible business management solutions for various service industries. 
-                Our adaptable platform can be customized to meet the unique needs of 
+                Flexible business management solutions for various service industries.
+                Our adaptable platform can be customized to meet the unique needs of
                 your specific business type and operational requirements.
               </p>
               <ul className="space-y-3 mb-6">
@@ -385,7 +385,7 @@ function App() {
                   <span className="text-gray-700">Integration Support</span>
                 </li>
               </ul>
-              <ThumbnailSlider 
+              <ThumbnailSlider
                 images={[
                   "https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=150",
                   "https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=150",
@@ -418,16 +418,16 @@ function App() {
       <section className="py-20 bg-green-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="mb-12">
-            <img 
-              src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400" 
-              alt="Professional woman" 
+            <img
+              src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400"
+              alt="Professional woman"
               className="w-32 h-32 rounded-full mx-auto mb-6 object-cover"
             />
             <h2 className="text-4xl font-bold text-white mb-6">
               Ready to transform your business?
             </h2>
             <p className="text-xl text-green-100 mb-8 max-w-3xl mx-auto">
-              Join thousands of businesses that have chosen ISA to streamline their operations 
+              Join thousands of businesses that have chosen ISA to streamline their operations
               and boost their performance. Start your free trial today.
             </p>
             <button className="bg-white text-green-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
@@ -580,39 +580,39 @@ function App() {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">About ISA</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                ISA is the innovative digital solution for small and medium-sized enterprises in the commercial sector, aiming at 
-                optimizing business processes. Our team is made up of young, dynamic, and experienced professionals in the field of 
+                ISA is the innovative digital solution for small and medium-sized enterprises in the commercial sector, aiming at
+                optimizing business processes. Our team is made up of young, dynamic, and experienced professionals in the field of
                 information technology and business management.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                We understand the challenges faced by modern businesses and have developed comprehensive solutions that address 
-                these needs effectively. Our platform combines cutting-edge technology with user-friendly interfaces to deliver 
+                We understand the challenges faced by modern businesses and have developed comprehensive solutions that address
+                these needs effectively. Our platform combines cutting-edge technology with user-friendly interfaces to deliver
                 exceptional results.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                With ISA, you're not just getting software - you're getting a partner committed to your success. We provide ongoing 
+                With ISA, you're not just getting software - you're getting a partner committed to your success. We provide ongoing
                 support, regular updates, and continuous innovation to ensure your business stays ahead of the competition.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <img 
-                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=300" 
-                alt="Team member 1" 
+              <img
+                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=300"
+                alt="Team member 1"
                 className="w-full h-48 object-cover rounded-lg"
               />
-              <img 
-                src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=300" 
-                alt="Team member 2" 
+              <img
+                src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=300"
+                alt="Team member 2"
                 className="w-full h-48 object-cover rounded-lg"
               />
-              <img 
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=300" 
-                alt="Team member 3" 
+              <img
+                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=300"
+                alt="Team member 3"
                 className="w-full h-48 object-cover rounded-lg"
               />
-              <img 
-                src="https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=300" 
-                alt="Team member 4" 
+              <img
+                src="https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=300"
+                alt="Team member 4"
                 className="w-full h-48 object-cover rounded-lg"
               />
             </div>
